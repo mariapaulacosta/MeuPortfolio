@@ -305,3 +305,60 @@ h2.sub-coral {
 .card-material p {
   text-align: justify;
 }
+/* Contatos visíveis no corpo */
+.contatos-diretos {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  font-size: 0.98rem;
+  color: #ebebeb;
+}
+
+.contatos-diretos strong {
+  color: #d45d53;
+}
+
+/* Rodapé */
+.rodape {
+  margin-top: 64px;
+  padding: 32px 24px;
+  background-color: #161616;
+  border-top: 1px solid #2e2e2e;
+  text-align: center;
+}
+
+.rodape-conteudo {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.rodape-gato {
+  width: 52px;
+  height: auto;
+  margin-bottom: 4px;
+}
+
+.rodape-nome {
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 0.98rem;
+}
+
+.rodape-contatos {
+  color: #bdbdbd;
+  font-size: 0.92rem;
+}
+
+.rodape-contatos a {
+  color: #d45d53;
+  text-decoration: none;
+}
+
+.rodape-contatos a:hover {
+  text-decoration: underline;
+}
