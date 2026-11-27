@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio: Maria Paula Costa</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <div class="capa">
+    <div class="capa-gatinhos">
+      <img src="{{ url_for('static', filename='img/gatodeitadolendo.png') }}" alt="" class="pixel-art">
+      <img src="{{ url_for('static', filename='img/gatoescrevendoplanta.png') }}" alt="" class="pixel-art">
+      <img src="{{ url_for('static', filename='img/gatoescrevendooculos.png') }}" alt="" class="pixel-art">
+      <img src="{{ url_for('static', filename='img/gatodormindolivros.png') }}" alt="" class="pixel-art">
+    </div>
+  </div>
+
+  <main class="container">
+    <!-- Cabeçalho e Bio -->
+    <header class="cabecalho">
+      <div class="topo-perfil">
+        <img src="{{ url_for('static', filename='img/gatolendosentado.png') }}" alt="Mascote Maria Paula" class="avatar-principal pixel-art">
+        <div>
+          <h1>Portfólio: Maria Paula Costa</h1>
+          <p class="subtitulo">Esse é o meu portfólio! :)</p>
+        </div>
+      </div>
+
+      <div class="caixa-destaque">
+        <div class="cargo-destaque">
+          <span>Educadora, Produtora de Conteúdo Didático e Estudante de Tecnologia (ADS)</span>
+        </div>
+        <p>
+          Licenciada e Bacharela em Química pela USP, com sólida experiência em sala de aula na Educação Básica
+          (Ciências da Natureza, Matemática e Educação Financeira) e atuação na produção, edição e validação de
+          materiais didáticos multiplataforma: planos de aula, livros, roteiros de vídeo e itens avaliativos alinhados
+          à BNCC e Saeb. Atualmente graduanda em Análise e Desenvolvimento de Sistemas, uno o rigor pedagógico à
+          lógica computacional e à modelagem de processos para atuar no desenvolvimento de produtos educacionais,
+          design instrucional, consultoria pedagógica e soluções em EdTech.
+        </p>
+      </div>
+
+      <div class="botoes-contato">
+        <a href="mailto:mp.mppc@gmail.com" class="btn">E-mail</a>
+        <a href="https://www.linkedin.com/in/maria-paula-costa" class="btn">LinkedIn</a>
+        <a href="https://wa.me/5517991952096" class="btn">Telefone</a>
+      </div>
+    </header>
+
+    <!-- Experiências e Infos -->
+    <section class="duas-colunas">
+      <div>
+        <div class="titulo-secao">
+          <img src="{{ url_for('static', filename='img/gatoescrevendoplanta.png') }}" alt="" class="icone-secao pixel-art">
+          <span>Experiências mais recentes</span>
+        </div>
+
+        <div class="item-lista">
+          <h3>Editora, Produtora e Revisora de Conteúdo Didático</h3>
+          <p>Multiverso das Letras | Set/2026 – Atual</p>
+        </div>
+        <div class="item-lista">
+          <h3>Professora Autora de Educação Financeira</h3>
+          <p>Projeto Saber para o Futuro (Instituto Energia do Saber) | Mai/2026 – Atual</p>
+        </div>
+        <div class="item-lista">
+          <h3>Professora de Física e Apoio Educacional</h3>
+          <p>Escola Social Marista – Irmão Lourenço | Set/2025 – Jul/2026</p>
+        </div>
+        <div class="item-lista">
+          <h3>Professora de Química e Matemática</h3>
+          <p>Colégio Marillac | 01/2025 – 10/2025</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="titulo-secao">
+          <img src="{{ url_for('static', filename='img/gatodeitadolendo.png') }}" alt="" class="icone-secao pixel-art">
+          <span>Infos</span>
+        </div>
+
+        <h2 class="sub-coral">Formação</h2>
+        <div class="item-lista">
+          <h3>Licenciatura e Bacharelado em Química | Universidade de São Paulo</h3>
+          <p>2020 - 2024</p>
+        </div>
+        <div class="item-lista">
+          <h3>Análise e Desenvolvimento de Sistemas | Universidade Anhanguera</h3>
+          <p>2026 - 2028</p>
+        </div>
+
+        <h2 class="sub-coral">Publicações</h2>
+        <a href="#" class="link-publicacao">Atividades biológicas de óleos essenciais obtidos de plantas cultivadas no Sítio 13 de Maio: uma breve revisão.</a>
+        <a href="#" class="link-publicacao">Bioprospecting the Cerrado's Aromatic Flora: Chemical and Biological Studies of Three Essential Oils</a>
+      </div>
+    </section>
+
+    <!-- Materiais -->
+    <section>
+      <div class="titulo-secao">
+        <img src="{{ url_for('static', filename='img/gatoescrevendooculos.png') }}" alt="" class="icone-secao pixel-art">
+        <span>Materiais</span>
+      </div>
+
+      <article class="linha-documento">
+        <embed src="{{ url_for('static', filename='docs/Roteiro_Matematica_Recuperacao.pdf') }}" type="application/pdf" width="100%" height="440px" style="border-radius: 6px; border: 1px solid #333333;">
+        <div class="linha-documento-info">
+          <h3>Roteiro de estudos - Matemática</h3>
+          <p>Roteiro de matemática para recuperação de conteúdos do EFAF. O roteiro foi usado no contexto de contraturno em uma escola social, onde grande parte dos estudantes apresentava defasagem de aprendizado. O objetivo desse roteiro foi, durante uma semana, retomar as noções de proporcionalidade e permitir a relação entre grandezas por meio do cálculo por “Regra de Três”.</p>
+        </div>
+      </article>
+
+      <article class="linha-documento">
+        <embed src="{{ url_for('static', filename='docs/Plano_Matematica_MariaPaulaCosta.pdf') }}" type="application/pdf" width="100%" height="440px" style="border-radius: 6px; border: 1px solid #333333;">
+        <div class="linha-documento-info">
+          <h3>Plano de aula - Aula única de Matemática</h3>
+          <p>Plano de aula desenvolvido a pedido de um docente para uma aula específica de Teorema de Pitágoras, para o 9° do Ensino Fundamental Anos Finais. Os planos de aula têm 4 características principais para além das descrições das aulas:</p>
+          <ul>
+            <li> Descrição da sequência: objetivos, habilidades e número de aulas;</li>
+            <li>Materiais necessários;</li>
+            <li>Dificuldades antecipadas e possibilidades de adaptação;</li>
+            <li>Anexos de apoio ao docente.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="linha-documento">
+        <embed src="{{ url_for('static', filename='docs/Plano_Quimica_MariaPaulaCosta.pdf') }}" type="application/pdf" width="100%" height="440px" style="border-radius: 6px; border: 1px solid #333333;">
+        <div class="linha-documento-info">
+          <h3>Plano de aula - Sequência Didática de Química</h3>
+          <p>Esta sequência didática foi estruturada com flexibilidade curricular para aplicação no 1º ou no 3º ano do Ensino Médio, partindo da discussão epistemológica sobre o conceito de modelagem científica antes da abordagem dos modelos específicos. Ao subverter a ordem cronológica tradicional na apresentação dos modelos atômicos e propor a construção da linha do tempo como sistematização final, a atividade integra a perspectiva histórica da Ciência à análise comparativa, favorecendo o reconhecimento concomitante dos alcances e das limitações de cada proposição teórica.</p>
+        </div>
+      </article>
+
+      <article class="linha-documento">
+        <embed src="{{ url_for('static', filename='docs/ItensAvaliativos_MariaPaula.pdf') }}" type="application/pdf" width="100%" height="440px" style="border-radius: 6px; border: 1px solid #333333;">
+        <div class="linha-documento-info">
+          <h3>Questões Comentadas — Ciências da Natureza (Química e Física)</h3>
+          <p>Conjunto de itens inéditos de múltipla escolha elaborados para o Ensino Médio, seguindo o padrão de avaliações externas e matrizes de referência da BNCC. Além do enunciado contextualizado e do suporte visual, cada questão conta com ficha técnica completa, resolução detalhada passo a passo e análise pedagógica dos distratores, evidenciando o raciocínio esperado na alternativa correta e os equívocos conceituais ou matemáticos mapeados em cada alternativa incorreta.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Automação -->
+    <section>
+      <div class="titulo-secao">
+        <img src="{{ url_for('static', filename='img/gatoescrevendoplanta.png') }}" alt="" class="icone-secao pixel-art">
+        <span>Automação - Planilha de rastreio automático de vagas</span>
+      </div>
+      <div class="card-material">
+        <h3>Planilha de rastreio automático de vagas</h3>
+        <p>A planilha foi feita por meio de um prompt estruturado que transforma qualquer IA generativa em um agente de busca. Nesse caso, o prompt tem como objetivo buscar vagas de emprego no ramo editorial da educação e cruzar as informações das vagas com o currículo submetido. Foi estabelecido um piso salarial e condições para que uma proposta fosse Aprovada/Reprovada. Além disso, o agente deve sempre disponibilizar os links dos empregos encontrados para que a pessoa responsável seja capaz de acessar a proposta e, tanto em caso de aprovação quanto de reprovação, realizar a submissão de currículo.</p>
+        <div class="botoes-contato" style="margin-top: 14px;">
+          <a href="{{ url_for('static', filename='docs/Planilha_Automacao_Vagas.xlsx') }}" class="btn">Baixar Planilha (.xlsx)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Monografia -->
+    <section>
+      <div class="titulo-secao">
+        <img src="{{ url_for('static', filename='img/gatodormindolivros.png') }}" alt="" class="icone-secao pixel-art">
+        <span>Produção longa - Monografia de Conclusão de Curso</span>
+      </div>
+      <div class="linha-documento">
+        <embed src="{{ url_for('static', filename='docs/Monografia_MariaPaula.pdf') }}" type="application/pdf" width="100%" height="480px" style="border-radius: 6px; border: 1px solid #333333;">
+        <div class="linha-documento-info">
+          <h3>Monografia de Conclusão de Curso</h3>
+          <p>Trabalho de conclusão de curso (Licenciatura e Bacharelado em Química — FFCLRP/USP, 2024) baseado em uma revisão sistemática de 45 produções acadêmicas (artigos, dissertações e teses) publicadas nas bases Web of Science, SciELO, BDTD e SciSpace. A pesquisa analisa o impacto das Tecnologias Digitais de Informação e Comunicação (TDICs) e da Inteligência Artificial Generativa nos processos de ensino e aprendizagem à luz dos conceitos de mediação, instrumento, signo, domínio e apropriação (Lev Vigotski, James Gibson e James Wertsch). O estudo evidencia que o uso efetivo de recursos digitais na Educação Básica depende tanto de condições estruturais de acesso quanto de uma intencionalidade pedagógica que supere o uso meramente instrumental das ferramentas.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
