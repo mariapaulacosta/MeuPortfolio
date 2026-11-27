@@ -227,7 +227,14 @@ h2.sub-coral {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .linha-documento {
     grid-template-columns: 1fr;
   }
+}
+
+.caixa-destaque p,
+.linha-documento-info p,
+.card-material p {
+  text-align: justify;
 }
