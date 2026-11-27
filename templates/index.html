@@ -9,12 +9,21 @@
 </head>
 <body>
 
-  <div class="capa">
+ <div class="capa">
+    <svg class="capa-curvas" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+      <path class="curva-vermelha" d="M 180,-20 C 310,145 550,145 690,-20" />
+      <path class="curva-coral" d="M -20,145 C 240,215 620,60 830,-20" />
+      <path class="curva-vermelha-2" d="M 900,-20 C 1030,180 1290,210 1460,125" />
+      <path class="curva-coral-2" d="M 790,-20 C 980,95 1260,95 1460,-10" />
+      <path class="curva-coral-3" d="M 1110,-20 C 1220,100 1350,115 1460,85" />
+    </svg>
+
     <div class="capa-gatinhos">
-      <img src="{{ url_for('static', filename='img/gatodeitadolendo.png') }}" alt="" class="pixel-art">
-      <img src="{{ url_for('static', filename='img/gatoescrevendoplanta.png') }}" alt="" class="pixel-art">
-      <img src="{{ url_for('static', filename='img/gatoescrevendooculos.png') }}" alt="" class="pixel-art">
-      <img src="{{ url_for('static', filename='img/gatodormindolivros.png') }}" alt="" class="pixel-art">
+      <img src="{{ url_for('static', filename='img/gatolendosentado.png') }}" alt="" class="pixel-art gatinho-1">
+      <img src="{{ url_for('static', filename='img/gatodeitadolendo.png') }}" alt="" class="pixel-art gatinho-2">
+      <img src="{{ url_for('static', filename='img/gatoescrevendoplanta.png') }}" alt="" class="pixel-art gatinho-3">
+      <img src="{{ url_for('static', filename='img/gatoescrevendooculos.png') }}" alt="" class="pixel-art gatinho-4">
+      <img src="{{ url_for('static', filename='img/gatodormindolivros.png') }}" alt="" class="pixel-art gatinho-5">
     </div>
   </div>
 
