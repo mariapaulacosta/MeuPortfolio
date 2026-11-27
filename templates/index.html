@@ -52,12 +52,16 @@
         </p>
       </div>
 
-      <div class="botoes-contato">
-        <a href="mailto:mp.mppc@gmail.com" class="btn">E-mail</a>
-        <a href="https://www.linkedin.com/in/maria-paula-costa" class="btn">LinkedIn</a>
-        <a href="https://wa.me/5517991952096" class="btn">Telefone</a>
+     <div class="contatos-diretos">
+        <span><strong>E-mail:</strong> mp.mppc@gmail.com</span>
+        <span><strong>Telefone:</strong> +55 17 99195-2096</span>
       </div>
-    </header>
+
+      <div class="botoes-contato">
+        <a href="mailto:mp.mppc@gmail.com" class="btn">Enviar E-mail</a>
+        <a href="https://www.linkedin.com/in/maria-paula-costa" class="btn" target="_blank">LinkedIn</a>
+        <a href="https://wa.me/5517991952096" class="btn" target="_blank">WhatsApp / Telefone</a>
+      </div>
 
     <!-- Experiências e Infos -->
     <section class="duas-colunas">
@@ -68,11 +72,11 @@
         </div>
 
         <div class="item-lista">
-          <h3>Editora, Produtora e Revisora de Conteúdo Didático</h3>
+          <h3>Editora, Produtora e Revisora de Conteúdo Didático - Freelancer</h3>
           <p>Multiverso das Letras | Set/2026 – Atual</p>
         </div>
         <div class="item-lista">
-          <h3>Professora Autora de Educação Financeira</h3>
+          <h3>Professora Autora de Educação Financeira - Freelancer</h3>
           <p>Projeto Saber para o Futuro (Instituto Energia do Saber) | Mai/2026 – Atual</p>
         </div>
         <div class="item-lista">
@@ -183,6 +187,16 @@
       </div>
     </section>
   </main>
-
+<footer class="rodape">
+    <div class="rodape-conteudo">
+      <img src="{{ url_for('static', filename='img/gatodormindolivros.png') }}" alt="" class="pixel-art rodape-gato">
+      <p class="rodape-nome">Maria Paula Costa — Educação, Conteúdo Didático &amp; Tecnologia</p>
+      <p class="rodape-contatos">
+        <a href="mailto:mp.mppc@gmail.com">mp.mppc@gmail.com</a> •
+        <a href="tel:+5517991952096">+55 17 99195-2096</a> •
+        <a href="www.linkedin.com/in/maria-paula-costa" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
